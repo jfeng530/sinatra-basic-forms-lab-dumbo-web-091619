@@ -11,7 +11,7 @@ class App < Sinatra::Base
   end 
   
   post '/puppy' do
-    
+    new_pup = Puppy.new()
   end
 
 end
